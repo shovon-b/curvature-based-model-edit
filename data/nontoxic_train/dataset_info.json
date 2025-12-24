@@ -1,0 +1,94 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "civil_comments",
+  "dataset_size": 660735148,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/google/civil_comments@f2970eb3a55777454c94069077cc8d9b5866312d/data/train-00000-of-00002.parquet": {
+      "num_bytes": 193527147,
+      "checksum": null
+    },
+    "hf://datasets/google/civil_comments@f2970eb3a55777454c94069077cc8d9b5866312d/data/train-00001-of-00002.parquet": {
+      "num_bytes": 186778090,
+      "checksum": null
+    },
+    "hf://datasets/google/civil_comments@f2970eb3a55777454c94069077cc8d9b5866312d/data/validation-00000-of-00001.parquet": {
+      "num_bytes": 20955569,
+      "checksum": null
+    },
+    "hf://datasets/google/civil_comments@f2970eb3a55777454c94069077cc8d9b5866312d/data/test-00000-of-00001.parquet": {
+      "num_bytes": 20800265,
+      "checksum": null
+    }
+  },
+  "download_size": 422061071,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "toxicity": {
+      "dtype": "float32",
+      "_type": "Value"
+    },
+    "severe_toxicity": {
+      "dtype": "float32",
+      "_type": "Value"
+    },
+    "obscene": {
+      "dtype": "float32",
+      "_type": "Value"
+    },
+    "threat": {
+      "dtype": "float32",
+      "_type": "Value"
+    },
+    "insult": {
+      "dtype": "float32",
+      "_type": "Value"
+    },
+    "identity_attack": {
+      "dtype": "float32",
+      "_type": "Value"
+    },
+    "sexual_explicit": {
+      "dtype": "float32",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 1082796219,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 596384434,
+      "num_examples": 1804874,
+      "shard_lengths": [
+        1504437,
+        300437
+      ],
+      "dataset_name": "civil_comments"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 32302035,
+      "num_examples": 97320,
+      "dataset_name": "civil_comments"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 32048679,
+      "num_examples": 97320,
+      "dataset_name": "civil_comments"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
