@@ -142,7 +142,7 @@ class Steering:
         for i, mats in tqdm(self._cache.items(), desc="Editing Layers"):
             layer_block = self.model.model.layers[i].mlp
             mod = {
-                "gate": layer_block.gate_proj,
+                "gate": layer_block.gate_proj
                 "up": layer_block.up_proj,
                 "down": layer_block.down_proj
             }
